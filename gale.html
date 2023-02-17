@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CNET</title>
+    <link rel="icon" href="https://cdn.glitch.global/c0f50703-1382-44a8-952e-cedfcba16812/logocnet-final.png?v=1673881791365">
+    <script src="https://kit.fontawesome.com/e4320a0072.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/e4320a0072.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+        <div class="header_superior">
+            <div class="logo">
+            <img src="https://cdn.glitch.global/c0f50703-1382-44a8-952e-cedfcba16812/logocnet-final.png?v=1673881791365" alt="">
+            </div>
+            <div class="search">
+                <input type="search" placeholder="  ¿Que deseas buscar?">
+
+            </div>
+        </div>
+        <div class="contenedor__menu">
+            <div class="menu">
+                <input type="checkbox" id="check_menu">
+                <label id="label_check" for="check_menu">
+                    <i class="fa-solid fa-bars icon_menu"></i>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="/index.html" id="selector"></a></li>
+                       
+                        <li><a href="#">Planes</a>
+                        <ul>
+                            <li><a href="/planeshome.html" hreft="#">Planes Home</a></li>
+                            <li><a href="/planesPremiun.html" hreft="#">Planes Premium</a></li>
+                        </ul>
+
+                        
+                        </li>
+                        <li><a href="#galeria" id="enlace-galeria" class="btn-header">Galeria</a></li>
+                        <li><a href="#mapa" id="enlace-mapa" class="btn-header">Visitanos</a></li>
+                        <li><a href="#contacto" id="enlace-contacto" class="btn-header">Contacto</a></li>
+                    </ul>
+                    
+                </nav>
+    
+                </div>
+            </div>
+        </div> 
+    </header>
+    
+
+    <main class="todo">
+    
+        <section id="galeria">
+            <div class="full-img" id="fulImgBox">
+             <img src="/img/cnet-1.jpg" id="fulImg" alt="">
+             <span onclick="closeImg()">X</span>
+            </div>
+            
+           <h1>
+            <span>
+                GALERIA DE IMAGENES
+            </span>
+           </h1>
+        
+           <div class="img-gallery">
+            <img src="https://cdn.glitch.global/c0f50703-1382-44a8-952e-cedfcba16812/cnet-1.jpg?v=1674414888078"onclick="openFulImg(this.src)" alt="">
+            <img src="https://cdn.glitch.global/c0f50703-1382-44a8-952e-cedfcba16812/cnet-2.jpg?v=1674414892143"onclick="openFulImg(this.src)" alt="">
+            <img src="https://cdn.glitch.global/c0f50703-1382-44a8-952e-cedfcba16812/cnet-3.jpg?v=1674414896914"onclick="openFulImg(this.src)" alt="">
+            <img src="https://cdn.glitch.global/c0f50703-1382-44a8-952e-cedfcba16812/cnet-4.jpg?v=1674414902004"onclick="openFulImg(this.src)" alt="">
+            <img src="https://cdn.glitch.global/c0f50703-1382-44a8-952e-cedfcba16812/cnet-5.jpg?v=1674414907760"onclick="openFulImg(this.src)" alt="">
+            <img src="https://cdn.glitch.global/c0f50703-1382-44a8-952e-cedfcba16812/cnet-6.jpg?v=1674414913057"onclick="openFulImg(this.src)" alt="">
+           </div>
+        </section>
+
+        <section id="mapa">
+            <div class="container-mapa contenedor">
+                <h3>ESTAMOS UBICADOS</h3>
+                <p class="after">Av.19 de Mayo y Eugenio Espejo diagonal al Tia</p>
+                <div class="responsive-iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.6399238845672!2d-79.22885736945463!3d-0.9413426778870067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d4b714011e517d%3A0x48162476e4bf8c53!2sT%C3%8DA%20LA%20MANA!5e0!3m2!1ses!2sec!4v1674106710069!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+
+            </div>
+        </section>
+        
+    </main>
+    <footer class="pie-pagina" id="contacto">
+        <div class="grupo-1">
+            <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="https://cdn.glitch.global/c0f50703-1382-44a8-952e-cedfcba16812/logocnet-final.png?v=1673881791365" alt="logo cnet">
+                        </a>
+                    </figure>
+            </div>
+
+            <div class="box">
+                <h3>Sobre Nosotros</h3>
+                <p>Somos una empresa de telecomunicaciones con mas de 10 años al servicion de la comunidad</p>
+                <p>Estamos ubicado en la Av.19 de mayo frente al tia</p>
+            </div>
+
+            <div class="box">
+                <h3 class="red">Redes Sociales</h3>
+                <div class="redes">
+                    <a href="https://www.facebook.com/profile.php?id=100054223358360" target="_blank" class="fa fa-facebook"></a>
+                    <a href="" target="_blank" class="fa fa-instagram"></a>
+                    <a href="" target="_blank" class="fa fa-twitter"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contactos</h3>
+                <div class="contacto">
+                    <a href="https://wa.me/593939145857?text=Bienvenidos%20a%20la%20Empresa%20CNET%20%22OR%20COMPANY%22" target="_blank" class="fa fa-whatsapp"></a>
+                    <h4>+593 0912345678</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>CNET "OR COMPANY"</b>-Todos los Derechos Reservados. </small>
+
+        </div>
+        </footer>
+         <script src="filtro"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/filtro.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="script.js"></script>
+  <script>
+                $(function () {
+    
+    
+
+    let equipo = $('#galeria').offset().top,
+        
+        trabajo = $('#mapa').offset().top,
+        
+        contacto = $('#contacto').offset().top;
+        
+       
+
+    window.addEventListener('resize', function(){
+        let equipo = $('#galeria').offset().top,
+        
+        trabajo = $('#mapa').offset().top,
+        
+        contacto = $('#contacto').offset().top;
+        
+       
+    });
+
+
+    $('#enlace-galeria').on('click', function(e){
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: equipo -100
+        },600);
+    });
+
+   
+
+    $('#enlace-mapa').on('click', function(e){
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: trabajo -100
+        },600);
+    });
+
+
+    $('#enlace-contacto').on('click', function(e){
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: contacto -100
+        },600);
+    });
+
+});
+
+        </script>
+       
+     
+</body>
+<style>
+.todo{
+    background-color: rgba(240, 248, 255, 0);
+    
+}
+header{
+    
+    height: 100px;
+    
+}
+.contenedor{
+    
+    background-color: aliceblue;
+}
+button{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0,5);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    background-color: rgba(89, 172, 246, 0.585);
+}
+h1 {
+    text-align: center;
+    
+    width: 80%;
+    margin: 50px auto;
+    
+}
+body{
+    background-color: aliceblue;
+}
+h1::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    
+    background-color: black;
+    top: 50%;
+    z-index: -1;
+}
+h1 span{
+
+background-color: rgb(240, 248, 255);
+padding: 0 15px;
+
+}
+.img-gallery{
+    width: 79%;
+    height: 10%;
+    margin: 60px auto 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+    background-color: rgba(128, 128, 128, 0.149);
+    padding: 20px;
+    border-radius: 10px;
+   
+
+    
+}
+.img-gallery img{
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px;
+   cursor: pointer;
+   transition: 0.5s; 
+   border-radius: 10px;
+   
+   
+}
+.img-gallery img:hover{
+    padding: 10px;
+    border-radius: 10px;
+    
+   
+}
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+   
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    z-index: 99;
+}
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.full-img img{
+    width: 90%;
+    max-width: 600px;
+    margin-left: 28%;
+    
+    
+}
+@media(max-width:1000px){
+    .full-img img{
+        width: 100%;
+        max-width: 600px;
+        margin-left: 20%;
+    }
+
+}
+@media(max-width:900px){
+    .full-img img{
+        width: 100%;
+        max-width: 600px;
+        margin-left: 13%;
+    }
+
+}
+@media(max-width:800px){
+    .full-img img{
+        width: 100%;
+        max-width: 600px;
+        margin-left: 8%;
+    }
+
+}
+@media(max-width:700px){
+    .full-img img{
+        width: 100%;
+        max-width: 600px;
+        margin-left: 4%;
+    }
+
+}
+@media(max-width:670px){
+    .full-img img{
+        width: 100%;
+        max-width: 600px;
+        margin-left: 3%;
+    }
+
+}
+@media(max-width:650px){
+    .full-img img{
+        width: 100%;
+        max-width: 600px;
+        margin-left: 2%;
+    }
+
+}
+@media(max-width:630px){
+    .full-img img{
+        width: 100%;
+        max-width: 600px;
+        margin-left: 1%;
+    }
+
+}
+@media(max-width:400px) {
+    h1{
+        text-decoration: underline;
+    }
+    h1::before{
+        display: none;
+    }
+    h1 span{
+        padding: 0;
+    }
+    .full-img img{
+        width: 100%;
+        max-width: 600px;
+        margin-left: 0%;
+    }
+    .img-gallery img{
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px;
+       cursor: pointer;
+       transition: 1s; }
+       
+   
+}
+@media(max-width:330px){
+    .img-gallery img{
+        width: 75%;
+        height: 100%;
+        padding: 0px 0px;
+       cursor: pointer;
+       transition: 1s; }
+}
+@media(max-width:300px){
+    .img-gallery img{
+        width: 70%;
+        height: 100%;
+        padding: 0px 0px;
+       cursor: pointer;
+       transition: 1s; }
+}
+@media(max-width:280px){
+    .img-gallery img{
+        width: 65%;
+        height: 100%;
+        padding: 0px 0px;
+       cursor: pointer;
+       transition: 1s; }
+}
+@media(max-width:260px){
+    .img-gallery img{
+        width: 50%;
+        height: 100%;
+       
+       cursor: pointer;
+       transition: 1s; }
+}
+
+</style>
+
+</html>
